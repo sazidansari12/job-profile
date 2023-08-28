@@ -1,0 +1,55 @@
+@media screen and (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    .section-title{
+        font-size: 5rem;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+   #menu-btn{
+    display: inline-block;
+
+   }
+   .header .flex  .navbar{ 
+    position: absolute;
+    top: 99%;
+    background-color: var(--white);
+    padding: 1rem .5rem;
+     clip-path: polygon(0 0%, 100% 0%, 100% 0%, 0% 0%);
+    transition: 2s linear; 
+}
+.header .flex  .navbar.active{
+     clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%); 
+}
+.header .flex  .navbar a{
+    display: block;
+    padding: 1.5rem 2rem;
+}
+.category .box-container{
+    grid-template-columns: repeat(auto-fit 16.5)
+}
+.category .box-containe .box{
+flex-flow: column;
+text-align: center;
+}
+.section-title{
+    font-size: 4rem;
+    padding:  4rem 2rem;
+}
+}
+@media screen and (max-with:450px) {
+    html{
+        font-size: 50%;
+    }
+    .section-title{
+        font-size: 2.5rem;
+    }
+}
+
+    
+
+
